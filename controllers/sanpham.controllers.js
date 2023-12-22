@@ -1,4 +1,4 @@
-var myMD = require('../../models/sanpham.models');
+var myMD = require('../models/sanpham.models');
 exports.list = async (req, res, next) => {
     let dieu_kien_loc = null;
     if( req.params.idtl != '0'){

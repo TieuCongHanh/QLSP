@@ -1,5 +1,5 @@
 const { log } = require('console');
-var myMD = require('../../models/user.models');
+var myMD = require('../models/user.models');
 
 var fs = require('fs');
 
